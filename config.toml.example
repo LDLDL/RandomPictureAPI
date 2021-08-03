@@ -1,0 +1,11 @@
+[auth]
+# api key
+key = "apikey"
+
+[site]
+# cert file
+cert = ""
+# private key file
+key = ""
+# listening address and port
+listen = ":8192"
