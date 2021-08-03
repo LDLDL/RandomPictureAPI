@@ -94,6 +94,7 @@ func init() {
 	}
 
 	_ = randPicReqIDCache.SetTTL(5 * time.Minute)
+	rand.Seed(time.Now().Unix())
 }
 
 func verifyToken(c *gin.Context) {
